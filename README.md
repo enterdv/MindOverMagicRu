@@ -5,5 +5,6 @@
 
 ## Установка
 1. Скопируйте директорию RU в директорию
+
 `C:\Program Files (x86)\Steam\steamapps\common\MindOverMagic\mindovermagic_Data\StreamingAssets\LocalizedText\`
 2. Поменяйте язык в меню Translations
