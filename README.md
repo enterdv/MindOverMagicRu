@@ -1,11 +1,9 @@
-# Mind Over Magic Translation
+# Mind Over Magic Russian Translation
 В данном репозитории находятся файлы перевода для игры Mind Over Magic.
 
-Перевод находится на начальной стадии и нуждается в редактуре. Тем не менее основные механики, названия и способности уже переведены и понятны.
-Любые правки и комментарии приветствуются. 
+Перевод находится на начальной стадии и нуждается в редактуре. Тем не менее основные механики, названия и способности переведены.
 
-## Для установки перевода на вашу локальную версию игры:
-1. Перейдите в папку:
-C:\Program Files (x86)\Steam\steamapps\common\MindOverMagic\mindovermagic_Data\StreamingAssets\LocalizedText\
-2. Cкопируйте туда содержимое данного репозитория (папка RU c файлами)
-3. Запустите игру!
+## Установка
+1. Скопируйте директорию RU в директорию
+`C:\Program Files (x86)\Steam\steamapps\common\MindOverMagic\mindovermagic_Data\StreamingAssets\LocalizedText\`
+2. Поменяйте язык в меню Translations
