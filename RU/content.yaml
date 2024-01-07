@@ -4092,6 +4092,12 @@
   Text: Место для хранения различных предметов.
 - Key: Archetype.Chest.DescriptionConfig.0.FlavorText
   Text: На подкладке из вельвета.
+- Key: Archetype.TinyChest.DescriptionConfig.0.DisplayName
+  Text: Крошечный сундук
+- Key: Archetype.TinyChest.DescriptionConfig.0.Description
+  Text: Очень маленькое место для хранения предметов одного типа.
+- Key: Archetype.TinyChest.DescriptionConfig.0.FlavorText
+  Text: Свой уголок
 - Key: Archetype.Pantry.DescriptionConfig.0.DisplayName
   Text: Кладовая
 - Key: Archetype.Pantry.DescriptionConfig.0.Description
@@ -9158,6 +9164,14 @@
   Text: Риск сломать!
 - Key: CharacterStatusConfig.CriticalMood.FeedHoverString
   Text: <slink=break> Риск
+- Key: CharacterStatusConfig.CriticalMoodTarget.DisplayName
+  Text: Возможный риск разрыва
+- Key: CharacterStatusConfig.CriticalMoodTarget.Description
+  Text: Цель находится в зоне риска. Если Убеждение не улучшится, у мага скоро появится <slink=CriticalMood>.
+- Key: CharacterStatusConfig.CriticalMoodTarget.FeedString
+  Text: Возможный риск разрыва
+- Key: CharacterStatusConfig.CriticalMoodTarget.FeedHoverString
+  Text: Цель находится в зоне риска. Если Убеждение не улучшится, у мага скоро появится <slink=CriticalMood>.
 - Key: CharacterStatusConfig.HadBreak.DisplayName
   Text: Восстановление после перерыва
 - Key: CharacterStatusConfig.HadBreak.Description
@@ -9459,6 +9473,18 @@
   Text: Приоритет выше
 - Key: KeyMappingConfigLoader.Selected_Priority_Lower.DisplayName
   Text: Приоритет ниже
+- Key: KeyMappingConfigLoader.Selected_Priority_SetX.DisplayName
+  Text: Приоритет никогда
+- Key: KeyMappingConfigLoader.Selected_Priority_Set1.DisplayName
+  Text: Приоритет 1
+- Key: KeyMappingConfigLoader.Selected_Priority_Set2.DisplayName
+  Text: Приоритет 2
+- Key: KeyMappingConfigLoader.Selected_Priority_Set3.DisplayName
+  Text: Приоритет 3
+- Key: KeyMappingConfigLoader.Selected_Priority_Set4.DisplayName
+  Text: Приоритет 4
+- Key: KeyMappingConfigLoader.Selected_Priority_Set5.DisplayName
+  Text: Приоритет 5
 - Key: KeyMappingConfigLoader.ActionButton_Disintegrate.DisplayName
   Text: Распасться
 - Key: KeyMappingConfigLoader.ActionButton_BuildCopy.DisplayName
@@ -9581,8 +9607,16 @@
   Text: Просмотр с помощью наклона камеры
 - Key: KeyMappingConfigLoader.ToggleTilt.DisplayName
   Text: Переключить наклон камеры
+- Key: KeyMappingConfigLoader.GoToLeftFog.DisplayName
+  Text: Идти к туману слева
+- Key: KeyMappingConfigLoader.GoToRightFog.DisplayName
+  Text: Идти к туману справа
+- Key: KeyMappingConfigLoader.CenterManaFont.DisplayName
+  Text: Center On Mana Font
 - Key: KeyMappingConfigLoader.Feedback.DisplayName
   Text: Обратная связь
+- Key: KeyMappingConfigLoader.QuickSave.DisplayName
+  Text: Сохранить
 - Key: KeyMappingConfigLoader.Cycle_Speed.DisplayName
   Text: Скорость цикла
 - Key: KeyMappingConfigLoader.Speed_Faster.DisplayName
@@ -10362,6 +10396,21 @@
 
     - Темные специализированные Маги начинают бой с <slink=Dark_Waxing_Battle>, и Маги, специализирующиеся на Воздухе, начинают битву с <slink=Air_Waning_Battle>.
 - Key: GlobalEventDefinition.HorrorCulture.DivinationText
+  Text: Зеленый. Сочится. Извиваясь.
+- Key: GlobalEventDefinition.HorrorCulture2.EventDisplayName
+  Text: Ужаскультура
+- Key: GlobalEventDefinition.HorrorCulture2.TriggeredEventDisplayText
+  Text: Ужасы были выпущены на волю!
+- Key: GlobalEventDefinition.HorrorCulture2.EventPersistLog
+  Text: Ужасная культура заражает почву.
+- Key: GlobalEventDefinition.HorrorCulture2.EventStopLog
+  Text: Ужаскультура закончилась.
+- Key: GlobalEventDefinition.HorrorCulture2.EventLogHover
+  Text: >-
+    - Растения имеют 50% шанс выбросить какие-то субпродукты вместо обычного урожая на время мероприятия.
+
+    - Темные специализированные Маги начинают бой с <slink=Dark_Waxing_Battle>, и Маги, специализирующиеся на Воздухе, начинают битву с <slink=Air_Waning_Battle>.
+- Key: GlobalEventDefinition.HorrorCulture2.DivinationText
   Text: Зеленый. Сочится. Извиваясь.
 - Key: GlobalEventDefinition.GoldenBerries.EventDisplayName
   Text: Золотые ягоды

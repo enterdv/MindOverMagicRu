@@ -1029,6 +1029,184 @@
   Args:
   - gearTypeDef.DisplayName
   - Reward.GearSlots
+- Key: LocalizationManager.0-638398060485508493
+  Text: Afrikaans
+- Key: LocalizationManager.1-638398060485518509
+  Text: Albanian
+- Key: LocalizationManager.2-638398060485518509
+  Text: Amharic
+- Key: LocalizationManager.3-638398060485518509
+  Text: Arabic
+- Key: LocalizationManager.4-638398060485518509
+  Text: Armenian
+- Key: LocalizationManager.5-638398060485518509
+  Text: Assamese
+- Key: LocalizationManager.6-638398060485518509
+  Text: Aymara
+- Key: LocalizationManager.7-638398060485518509
+  Text: Azerbaijani
+- Key: LocalizationManager.8-638398060485518509
+  Text: Bambara
+- Key: LocalizationManager.9-638398060485518509
+  Text: Basque
+- Key: LocalizationManager.10-638398060485518509
+  Text: Belarusian
+- Key: LocalizationManager.11-638398060485518509
+  Text: Bengali
+- Key: LocalizationManager.12-638398060485518509
+  Text: Bosnian
+- Key: LocalizationManager.13-638398060485518509
+  Text: Bulgarian
+- Key: LocalizationManager.14-638398060485518509
+  Text: Catalan
+- Key: LocalizationManager.15-638398060485518509
+  Text: Simplified Chinese
+- Key: LocalizationManager.0-638399682561202332
+  Text: Traditional Chinese
+- Key: LocalizationManager.16-638398060485518509
+  Text: Corsican
+- Key: LocalizationManager.17-638398060485518509
+  Text: Croatian
+- Key: LocalizationManager.18-638398060485518509
+  Text: Czech
+- Key: LocalizationManager.19-638398060485518509
+  Text: Danish
+- Key: LocalizationManager.20-638398060485518509
+  Text: Dutch
+- Key: LocalizationManager.21-638398060485518509
+  Text: English
+- Key: LocalizationManager.22-638398060485518509
+  Text: Esperanto
+- Key: LocalizationManager.23-638398060485518509
+  Text: Estonian
+- Key: LocalizationManager.24-638398060485518509
+  Text: Ewe
+- Key: LocalizationManager.25-638398060485518509
+  Text: Finnish
+- Key: LocalizationManager.26-638398060485518509
+  Text: French
+- Key: LocalizationManager.27-638398060485518509
+  Text: Georgian
+- Key: LocalizationManager.28-638398060485518509
+  Text: German
+- Key: LocalizationManager.29-638398060485518509
+  Text: Greek
+- Key: LocalizationManager.30-638398060485518509
+  Text: Guarani
+- Key: LocalizationManager.31-638398060485518509
+  Text: Gujarati
+- Key: LocalizationManager.32-638398060485518509
+  Text: Hebrew
+- Key: LocalizationManager.33-638398060485518509
+  Text: Hindi
+- Key: LocalizationManager.34-638398060485518509
+  Text: Hungarian
+- Key: LocalizationManager.35-638398060485518509
+  Text: Icelandic
+- Key: LocalizationManager.36-638398060485518509
+  Text: Indonesian
+- Key: LocalizationManager.37-638398060485518509
+  Text: Irish
+- Key: LocalizationManager.38-638398060485518509
+  Text: Italian
+- Key: LocalizationManager.39-638398060485518509
+  Text: Japanese
+- Key: LocalizationManager.40-638398060485518509
+  Text: Javanese
+- Key: LocalizationManager.41-638398060485518509
+  Text: Kazakh
+- Key: LocalizationManager.42-638398060485518509
+  Text: Korean
+- Key: LocalizationManager.43-638398060485518509
+  Text: Lao
+- Key: LocalizationManager.44-638398060485518509
+  Text: Latin
+- Key: LocalizationManager.45-638398060485518509
+  Text: Latvian
+- Key: LocalizationManager.46-638398060485518509
+  Text: Lithuanian
+- Key: LocalizationManager.47-638398060485518509
+  Text: Macedonian
+- Key: LocalizationManager.48-638398060485518509
+  Text: Malay
+- Key: LocalizationManager.49-638398060485518509
+  Text: Malayalam
+- Key: LocalizationManager.50-638398060485518509
+  Text: Maltese
+- Key: LocalizationManager.51-638398060485518509
+  Text: Maori
+- Key: LocalizationManager.52-638398060485518509
+  Text: Marathi
+- Key: LocalizationManager.53-638398060485518509
+  Text: Mongolian
+- Key: LocalizationManager.54-638398060485518509
+  Text: Nepali
+- Key: LocalizationManager.55-638398060485518509
+  Text: Norwegian
+- Key: LocalizationManager.56-638398060485518509
+  Text: Sichuan
+- Key: LocalizationManager.57-638398060485518509
+  Text: Persian
+- Key: LocalizationManager.58-638398060485518509
+  Text: Polish
+- Key: LocalizationManager.59-638398060485518509
+  Text: Portuguese
+- Key: LocalizationManager.60-638398060485518509
+  Text: Punjabi
+- Key: LocalizationManager.61-638398060485518509
+  Text: Romanian
+- Key: LocalizationManager.62-638398060485518509
+  Text: Russian
+- Key: LocalizationManager.63-638398060485518509
+  Text: Samoan
+- Key: LocalizationManager.64-638398060485518509
+  Text: Serbian
+- Key: LocalizationManager.65-638398060485518509
+  Text: Shona
+- Key: LocalizationManager.66-638398060485518509
+  Text: Sindhi
+- Key: LocalizationManager.67-638398060485518509
+  Text: Slovenian
+- Key: LocalizationManager.68-638398060485518509
+  Text: Somali
+- Key: LocalizationManager.69-638398060485518509
+  Text: Spanish
+- Key: LocalizationManager.70-638398060485518509
+  Text: Swahili
+- Key: LocalizationManager.71-638398060485518509
+  Text: Swedish
+- Key: LocalizationManager.72-638398060485518509
+  Text: Tamil
+- Key: LocalizationManager.73-638398060485518509
+  Text: Tatar
+- Key: LocalizationManager.74-638398060485518509
+  Text: Telugu
+- Key: LocalizationManager.75-638398060485518509
+  Text: Thai
+- Key: LocalizationManager.76-638398060485518509
+  Text: Turkish
+- Key: LocalizationManager.77-638398060485518509
+  Text: Turkmen
+- Key: LocalizationManager.78-638398060485518509
+  Text: Twi
+- Key: LocalizationManager.79-638398060485518509
+  Text: Ukrainian
+- Key: LocalizationManager.80-638398060485518509
+  Text: Urdu
+- Key: LocalizationManager.81-638398060485518509
+  Text: Uzbek
+- Key: LocalizationManager.82-638398060485518509
+  Text: Vietnamese
+- Key: LocalizationManager.83-638398060485518509
+  Text: Welsh
+- Key: LocalizationManager.84-638398060485518509
+  Text: Xhosa
+- Key: LocalizationManager.85-638398060485528506
+  Text: Yiddish
+- Key: LocalizationManager.86-638398060485528506
+  Text: Yoruba
+- Key: LocalizationManager.87-638398060485528506
+  Text: Zulu
 - Key: WorkContributionsLogBookEntry.0-638334084160086720
   Text: 'Work Contributions:'
 - Key: WorkContributionsLogBookEntry.1-638334084160086720
@@ -1160,7 +1338,7 @@
 - Key: EntityUtils.3-638334084160858326
   Text: Shrink - {0}
   Args:
-  - archDesc.DisplayName
+  - Format.Link(arch, includeLinkStyle)
 - Key: EntityUtils.4-638334084160858326
   Text: Seed - {0}
   Args:
@@ -2522,6 +2700,8 @@
   Text: Composite Editor
 - Key: MainMenuWindow.0-638320998830251933
   Text: Translations
+- Key: MainMenuWindow.0-638398060491199219
+  Text: Create Translation
 - Key: MainMenuWindow.3-638320129083603894
   Text: Settings
 - Key: MainMenuWindow.4-638320129083603894
@@ -2647,6 +2827,28 @@
 
 
     Building Materials:
+- Key: WorkshopUtils.0-638398060491547990
+  Text: Steam Client not valid. Is the game running through Steam?
+- Key: WorkshopUtils.1-638398060491547990
+  Text: 'Could not find language name for langId: {0}'
+  Args:
+  - langId
+- Key: WorkshopUtils.2-638398060491547990
+  Text: 'Upload Error: {0}'
+  Args:
+  - result.Result.ToString()
+- Key: WorkshopUtils.3-638398060491547990
+  Text: Steam Client not valid. Is the game running through Steam?
+- Key: WorkshopUtils.4-638398060491547990
+  Text: FileId is null or empty!
+- Key: WorkshopUtils.5-638398060491547990
+  Text: 'Path does not exist. Cannot upload. path: {0}'
+  Args:
+  - path
+- Key: WorkshopUtils.6-638398060491547990
+  Text: 'Upload Error: {0}'
+  Args:
+  - result.Result.ToString()
 - Key: AboveGroundBattleAlert.0-638303859719808052
   Text: A battle awaits. ({0})
   Args:
@@ -4058,7 +4260,7 @@
 - Key: SettingsWindowOptions.2-638332372939804428
   Text: Controls
 - Key: SettingsWindowOptions.3-638332372939804428
-  Text: Data
+  Text: Gameplay
 - Key: SettingsWindowOptions_Audio.0-638332372939804428
   Text: Master Volume
 - Key: SettingsWindowOptions_Audio.1-638332372939804428
@@ -4081,12 +4283,12 @@
   Text: OK
 - Key: SettingsWindowOptions_Controls.4-638332372939816524
   Text: Cancel
+- Key: SettingsWindowOptions_Data.0-638390026272745635
+  Text: Tutorial Enabled
+- Key: SettingsWindow.0-638185404764860756
+  Text: Reset Tutorial
 - Key: SettingsWindowOptions_Data.0-638332372939831571
   Text: Disable Data Send
-- Key: SettingsWindowOptions_Data.1-638332372939831571
-  Text: Tutorial
-- Key: SettingsWindow.0-638185404764860756
-  Text: Reset
 - Key: SettingsWindow.0-638207064683201869
   Text: Exclusive Fullscreen
 - Key: SettingsWindow.1-638207064683211854
@@ -4111,8 +4313,12 @@
   Text: Reset
 - Key: SettingsWindowOptions_Graphics.0-638386013538578606
   Text: Pan Speed
+- Key: SettingsWindowOptions_Graphics.0-638390026272780694
+  Text: Mouse Scroll Speed
 - Key: SettingsWindowOptions_Graphics.2-638373896637877755
   Text: Disable Combat Camera Motion
+- Key: SettingsWindowOptions_Graphics.0-638398060494013842
+  Text: Enable Translation Tool
 - Key: SettingsWindowTop.0-638332384326425996
   Text: Save Game
 - Key: SettingsWindowTop.1-638332384326425996
@@ -4137,16 +4343,10 @@
   Text: Translations
 - Key: TranslationsWindow.0-638379728726022054
   Text: Given the rapid updates during Early Access, translations are sometimes out of date, including those provided by Sparkypants. We are actively working on opening the process of adding and extending translations to the community in addition to official support for more languages as we approach the full launch of Mind Over Magic.
-- Key: TranslationsWindow.2-638320989626583848
-  Text: English
-- Key: TranslationsWindow.3-638320989626583848
-  Text: Chinese
 - Key: TranslationsWindow.1-638320989626583848
   Text: Done
-- Key: TranslationsWindow_Button.0-638382478171254154
-  Text: English
-- Key: TranslationsWindow_Button.1-638382478171264208
-  Text: Chinese
+- Key: TranslationsWindowNew.0-638398060494053162
+  Text: Steam Workshop
 - Key: TutorialWindow.0-638333251365094668
   Text: Tutorials
 - Key: RoomTypeFilterAlertWidget.0-638322107133905617

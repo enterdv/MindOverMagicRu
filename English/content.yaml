@@ -4092,6 +4092,12 @@
   Text: A place to store various objects.
 - Key: Archetype.Chest.DescriptionConfig.0.FlavorText
   Text: Lined in velveteen.
+- Key: Archetype.TinyChest.DescriptionConfig.0.DisplayName
+  Text: Tiny Chest
+- Key: Archetype.TinyChest.DescriptionConfig.0.Description
+  Text: A very small place to store one type of object.
+- Key: Archetype.TinyChest.DescriptionConfig.0.FlavorText
+  Text: A nook of one's own.
 - Key: Archetype.Pantry.DescriptionConfig.0.DisplayName
   Text: Pantry
 - Key: Archetype.Pantry.DescriptionConfig.0.Description
@@ -4334,14 +4340,6 @@
   Text: Potion of Rejuvenation
 - Key: Archetype.HealthPotion.DescriptionConfig.0.Description
   Text: A drinkable potion. Restores 50 <slink=HP>.
-- Key: Archetype.HealthPotion.CombatDrinkPotionErrandConfig.0.ErrandDesc
-  Text: Combat - Drink {0}
-  Args:
-  - itemName
-- Key: Archetype.HealthPotion.CombatDrinkPotionErrandConfig.0.BehaviorDesc
-  Text: Drinking {0}
-  Args:
-  - itemName
 - Key: Archetype.HealthPotion.Configs.11-638307174796677894.ErrandDesc
   Text: Drink {0}
   Args:
@@ -4354,14 +4352,6 @@
   Text: Potion of Recharging
 - Key: Archetype.ManaPotion.DescriptionConfig.0.Description
   Text: A drinkable potion. Restores 50 <slink=Mana>.
-- Key: Archetype.ManaPotion.CombatDrinkPotionErrandConfig.0.ErrandDesc
-  Text: Combat - Drink {0}
-  Args:
-  - itemName
-- Key: Archetype.ManaPotion.CombatDrinkPotionErrandConfig.0.BehaviorDesc
-  Text: Drinking {0}
-  Args:
-  - itemName
 - Key: Archetype.ManaPotion.Configs.11-638307174796679323.ErrandDesc
   Text: Drink {0}
   Args:
@@ -4374,14 +4364,6 @@
   Text: Potion of Greater Rejuvenation
 - Key: Archetype.GreaterHealthPotion.DescriptionConfig.0.Description
   Text: A drinkable potion. Restores 200 <slink=HP>.
-- Key: Archetype.GreaterHealthPotion.Configs.10-638308125867829705.ErrandDesc
-  Text: Combat - Drink {0}
-  Args:
-  - itemName
-- Key: Archetype.GreaterHealthPotion.Configs.10-638308125867829705.BehaviorDesc
-  Text: Drinking {0}
-  Args:
-  - itemName
 - Key: Archetype.GreaterHealthPotion.Configs.11-638307174796679323.ErrandDesc
   Text: Drink {0}
   Args:
@@ -4394,14 +4376,6 @@
   Text: Potion of Greater Recharging
 - Key: Archetype.GreaterManaPotion.DescriptionConfig.0.Description
   Text: A drinkable potion. Restores 200 <slink=Mana>.
-- Key: Archetype.GreaterManaPotion.Configs.10-638308126610662284.ErrandDesc
-  Text: Combat - Drink {0}
-  Args:
-  - itemName
-- Key: Archetype.GreaterManaPotion.Configs.10-638308126610662284.BehaviorDesc
-  Text: Drinking {0}
-  Args:
-  - itemName
 - Key: Archetype.GreaterManaPotion.Configs.11-638307174796679323.ErrandDesc
   Text: Drink {0}
   Args:
@@ -4418,122 +4392,42 @@
   Text: Lightning in a Bottle
 - Key: Archetype.StunFlask.DescriptionConfig.0.Description
   Text: A throwable flask. Attacks for 100 and applies <slink=Lightning_Stunned>.
-- Key: Archetype.StunFlask.CombatDrinkPotionErrandConfig.0.ErrandDesc
-  Text: Combat - Throw {0}
-  Args:
-  - itemName
-- Key: Archetype.StunFlask.CombatDrinkPotionErrandConfig.0.BehaviorDesc
-  Text: Throwing {0}
-  Args:
-  - itemName
 - Key: Archetype.MiasmaFlask.DescriptionConfig.0.DisplayName
   Text: Miasma Flask
 - Key: Archetype.MiasmaFlask.DescriptionConfig.0.Description
   Text: A throwable flask. Attacks all enemies for 50.
-- Key: Archetype.MiasmaFlask.CombatDrinkPotionErrandConfig.0.ErrandDesc
-  Text: Combat - Throw {0}
-  Args:
-  - itemName
-- Key: Archetype.MiasmaFlask.CombatDrinkPotionErrandConfig.0.BehaviorDesc
-  Text: Throwing {0}
-  Args:
-  - itemName
 - Key: Archetype.DragonfireFlask.DescriptionConfig.0.DisplayName
   Text: Dragonfire Flask
 - Key: Archetype.DragonfireFlask.DescriptionConfig.0.Description
   Text: A throwable flask. Attacks for 150.
-- Key: Archetype.DragonfireFlask.CombatDrinkPotionErrandConfig.0.ErrandDesc
-  Text: Combat - Throw {0}
-  Args:
-  - itemName
-- Key: Archetype.DragonfireFlask.CombatDrinkPotionErrandConfig.0.BehaviorDesc
-  Text: Throwing {0}
-  Args:
-  - itemName
 - Key: Archetype.HastePotion.DescriptionConfig.0.DisplayName
   Text: Hastening Potion
 - Key: Archetype.HastePotion.DescriptionConfig.0.Description
   Text: A drinkable potion. Drinker gains <slink=Character_Fast> for 4 rounds.
-- Key: Archetype.HastePotion.CombatDrinkPotionErrandConfig.0.ErrandDesc
-  Text: Combat - Drink {0}
-  Args:
-  - itemName
-- Key: Archetype.HastePotion.CombatDrinkPotionErrandConfig.0.BehaviorDesc
-  Text: Drinking {0}
-  Args:
-  - itemName
 - Key: Archetype.PotionOfStrength.DescriptionConfig.0.DisplayName
   Text: Potion of Strength
 - Key: Archetype.PotionOfStrength.DescriptionConfig.0.Description
   Text: A drinkable potion. Drinker gains 50 <slink=CombatStat_DamageBonus> for 2 rounds.
-- Key: Archetype.PotionOfStrength.CombatDrinkPotionErrandConfig.0.ErrandDesc
-  Text: Combat - Drink {0}
-  Args:
-  - itemName
-- Key: Archetype.PotionOfStrength.CombatDrinkPotionErrandConfig.0.BehaviorDesc
-  Text: Drinking {0}
-  Args:
-  - itemName
 - Key: Archetype.PotionOfRetaliation.DescriptionConfig.0.DisplayName
   Text: Potion of Retaliation
 - Key: Archetype.PotionOfRetaliation.DescriptionConfig.0.Description
   Text: A drinkable potion. Drinker gains <slink=Retaliate> 50.
-- Key: Archetype.PotionOfRetaliation.CombatDrinkPotionErrandConfig.0.ErrandDesc
-  Text: Combat - Drink {0}
-  Args:
-  - itemName
-- Key: Archetype.PotionOfRetaliation.CombatDrinkPotionErrandConfig.0.BehaviorDesc
-  Text: Drinking {0}
-  Args:
-  - itemName
 - Key: Archetype.EarthArmorPotion.DescriptionConfig.0.DisplayName
   Text: Earth Guardian's Potion
 - Key: Archetype.EarthArmorPotion.DescriptionConfig.0.Description
   Text: A drinkable potion. Drinker gains 250 <slink=TempHP> and <slink=Taunt> 3.
-- Key: Archetype.EarthArmorPotion.CombatDrinkPotionErrandConfig.0.ErrandDesc
-  Text: Combat - Drink {0}
-  Args:
-  - itemName
-- Key: Archetype.EarthArmorPotion.CombatDrinkPotionErrandConfig.0.BehaviorDesc
-  Text: Drinking {0}
-  Args:
-  - itemName
 - Key: Archetype.BraveryPotion.DescriptionConfig.0.DisplayName
   Text: Bravery Potion
 - Key: Archetype.BraveryPotion.DescriptionConfig.0.Description
   Text: A drinkable potion. Removes all stacks of Fearful.
-- Key: Archetype.BraveryPotion.CombatDrinkPotionErrandConfig.0.ErrandDesc
-  Text: Combat - Drink {0}
-  Args:
-  - itemName
-- Key: Archetype.BraveryPotion.CombatDrinkPotionErrandConfig.0.BehaviorDesc
-  Text: Drinking {0}
-  Args:
-  - itemName
 - Key: Archetype.CheerfulnessPotion.DescriptionConfig.0.DisplayName
   Text: Cheerfulness Potion
 - Key: Archetype.CheerfulnessPotion.DescriptionConfig.0.Description
   Text: A drinkable potion. Removes all stacks of Sadness.
-- Key: Archetype.CheerfulnessPotion.CombatDrinkPotionErrandConfig.0.ErrandDesc
-  Text: Combat - Drink {0}
-  Args:
-  - itemName
-- Key: Archetype.CheerfulnessPotion.CombatDrinkPotionErrandConfig.0.BehaviorDesc
-  Text: Drinking {0}
-  Args:
-  - itemName
 - Key: Archetype.CalmingPotion.DescriptionConfig.0.DisplayName
   Text: Calming Potion
 - Key: Archetype.CalmingPotion.DescriptionConfig.0.Description
   Text: A drinkable potion. Removes all stacks of Restless.
-- Key: Archetype.CalmingPotion.CombatDrinkPotionErrandConfig.0.ErrandDesc
-  Text: Combat - Drink {0}
-  Args:
-  - itemName
-- Key: Archetype.CalmingPotion.CombatDrinkPotionErrandConfig.0.BehaviorDesc
-  Text: Drinking {0}
-  Args:
-  - itemName
 - Key: Archetype.UntanglingPotion.DescriptionConfig.0.DisplayName
   Text: Untangling Potion
 - Key: Archetype.UntanglingPotion.DescriptionConfig.0.Description
@@ -4542,14 +4436,6 @@
   Text: Enshrouding Flask
 - Key: Archetype.EnshroudingPotion.DescriptionConfig.0.Description
   Text: A throwable potion. Adds Cover to an ally's position for 3 turns.
-- Key: Archetype.EnshroudingPotion.CombatDrinkPotionErrandConfig.0.ErrandDesc
-  Text: Combat - Drink {0}
-  Args:
-  - itemName
-- Key: Archetype.EnshroudingPotion.CombatDrinkPotionErrandConfig.0.BehaviorDesc
-  Text: Drinking {0}
-  Args:
-  - itemName
 - Key: Archetype.FireWand_1.Configs.1-638204570758106850.DisplayName
   Text: Fire Wand I
 - Key: Archetype.FireWand_1.Configs.1-638204570758106850.Description
@@ -9158,6 +9044,14 @@
   Text: Break Risk!
 - Key: CharacterStatusConfig.CriticalMood.FeedHoverString
   Text: <slink=break> Risk
+- Key: CharacterStatusConfig.CriticalMoodTarget.DisplayName
+  Text: Possible Break Risk
+- Key: CharacterStatusConfig.CriticalMoodTarget.Description
+  Text: Conviction target is in the break zone. If Conviction not improved, the mage will soon have a <slink=CriticalMood>.
+- Key: CharacterStatusConfig.CriticalMoodTarget.FeedString
+  Text: Possible Break Risk
+- Key: CharacterStatusConfig.CriticalMoodTarget.FeedHoverString
+  Text: Conviction target is in the break zone. If Conviction not improved, the mage will soon have a <slink=CriticalMood>.
 - Key: CharacterStatusConfig.HadBreak.DisplayName
   Text: Post-Break Recovery
 - Key: CharacterStatusConfig.HadBreak.Description
@@ -9459,6 +9353,18 @@
   Text: Priority Higher
 - Key: KeyMappingConfigLoader.Selected_Priority_Lower.DisplayName
   Text: Priority Lower
+- Key: KeyMappingConfigLoader.Selected_Priority_SetX.DisplayName
+  Text: Priority Never
+- Key: KeyMappingConfigLoader.Selected_Priority_Set1.DisplayName
+  Text: Priority 1
+- Key: KeyMappingConfigLoader.Selected_Priority_Set2.DisplayName
+  Text: Priority 2
+- Key: KeyMappingConfigLoader.Selected_Priority_Set3.DisplayName
+  Text: Priority 3
+- Key: KeyMappingConfigLoader.Selected_Priority_Set4.DisplayName
+  Text: Priority 4
+- Key: KeyMappingConfigLoader.Selected_Priority_Set5.DisplayName
+  Text: Priority 5
 - Key: KeyMappingConfigLoader.ActionButton_Disintegrate.DisplayName
   Text: Disintegrate
 - Key: KeyMappingConfigLoader.ActionButton_BuildCopy.DisplayName
@@ -9581,8 +9487,16 @@
   Text: Peek With Camera Tilt
 - Key: KeyMappingConfigLoader.ToggleTilt.DisplayName
   Text: Toggle Camera Tilt
+- Key: KeyMappingConfigLoader.GoToLeftFog.DisplayName
+  Text: Go To Left Fog
+- Key: KeyMappingConfigLoader.GoToRightFog.DisplayName
+  Text: Go To Right Fog
+- Key: KeyMappingConfigLoader.CenterManaFont.DisplayName
+  Text: Center On Mana Font
 - Key: KeyMappingConfigLoader.Feedback.DisplayName
   Text: Feedback
+- Key: KeyMappingConfigLoader.QuickSave.DisplayName
+  Text: Save
 - Key: KeyMappingConfigLoader.Cycle_Speed.DisplayName
   Text: Cycle Speed
 - Key: KeyMappingConfigLoader.Speed_Faster.DisplayName
@@ -10362,6 +10276,21 @@
 
     - Dark specialized Mages start battle with <slink=Dark_Waxing_Battle>, and Air specialized Mages start battle with <slink=Air_Waning_Battle>.
 - Key: GlobalEventDefinition.HorrorCulture.DivinationText
+  Text: Verdant. Oozing. Squirming.
+- Key: GlobalEventDefinition.HorrorCulture2.EventDisplayName
+  Text: Horrorculture
+- Key: GlobalEventDefinition.HorrorCulture2.TriggeredEventDisplayText
+  Text: Horrorcultures have been unleashed!
+- Key: GlobalEventDefinition.HorrorCulture2.EventPersistLog
+  Text: A Horrorculture infects the soil.
+- Key: GlobalEventDefinition.HorrorCulture2.EventStopLog
+  Text: The Horrorculture has ended.
+- Key: GlobalEventDefinition.HorrorCulture2.EventLogHover
+  Text: >-
+    - Crop plants have a 50% chance to drop some form of offal rather than their normal crop for the duration of the event.
+
+    - Dark specialized Mages start battle with <slink=Dark_Waxing_Battle>, and Air specialized Mages start battle with <slink=Air_Waning_Battle>.
+- Key: GlobalEventDefinition.HorrorCulture2.DivinationText
   Text: Verdant. Oozing. Squirming.
 - Key: GlobalEventDefinition.GoldenBerries.EventDisplayName
   Text: Golden Berries

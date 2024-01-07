@@ -2522,6 +2522,8 @@
   Text: Композитный редактор
 - Key: MainMenuWindow.0-638320998830251933
   Text: Переводы
+- Key: MainMenuWindow.0-638398060491199219
+  Text: Создать перевод
 - Key: MainMenuWindow.3-638320129083603894
   Text: Настройки
 - Key: MainMenuWindow.4-638320129083603894
@@ -2647,6 +2649,28 @@
 
 
     Строительные материалы:
+- Key: WorkshopUtils.0-638398060491547990
+  Text: Недействительный Steam Client. Игра запущена через Steam?
+- Key: WorkshopUtils.1-638398060491547990
+  Text: 'Не удалось найти название языка для langId: {0}'
+  Args:
+    - langId
+- Key: WorkshopUtils.2-638398060491547990
+  Text: 'Ошибка загрузки: {0}'
+  Args:
+    - result.Result.ToString()
+- Key: WorkshopUtils.3-638398060491547990
+  Text: Недействительный Steam Client. Игра запущена через Steam?
+- Key: WorkshopUtils.4-638398060491547990
+  Text: FileId пустое!
+- Key: WorkshopUtils.5-638398060491547990
+  Text: 'Путь не существует. Невозможно загрузить. path: {0}'
+  Args:
+    - path
+- Key: WorkshopUtils.6-638398060491547990
+  Text: 'Ошибка загрузки: {0}'
+  Args:
+    - result.Result.ToString()
 - Key: AboveGroundBattleAlert.0-638303859719808052
   Text: Ожидается битва. ({0})
   Args:
@@ -4081,8 +4105,12 @@
   Text: ХОРОШО
 - Key: SettingsWindowOptions_Controls.4-638332372939816524
   Text: Отмена
+- Key: SettingsWindowOptions_Data.0-638390026272745635
+  Text: <size=-20>Обучение включено</size>
+- Key: SettingsWindow.0-638185404764860756
+  Text: Сбросить обучение
 - Key: SettingsWindowOptions_Data.0-638332372939831571
-  Text: "<size=-12>Отключить \nотправку данных</size>"
+  Text: <size=-24>Отключить отправку данных</size>
 - Key: SettingsWindowOptions_Data.1-638332372939831571
   Text: <size=-12>Руководство</size>
 - Key: SettingsWindow.0-638185404764860756
@@ -4110,9 +4138,13 @@
 - Key: SettingsWindowOptions_Graphics.1-638373896637877755
   Text: <size=-6>Перезагрузить</size>
 - Key: SettingsWindowOptions_Graphics.0-638386013538578606
-  Text: <size=-6>Скорость мышки</size>
+  Text: <size=-6>Скорость мыши</size>
+- Key: SettingsWindowOptions_Graphics.0-638390026272780694
+  Text: <size=-6>Скорость прокрутки</size>
 - Key: SettingsWindowOptions_Graphics.2-638373896637877755
-  Text: "<size=-6>\nОтключить движение\n боевой камеры</size>"
+  Text: <size=-16>Отключить движение боевой камеры</size>
+- Key: SettingsWindowOptions_Graphics.0-638398060494013842
+  Text: <size=-16>Включить инструменты перевода</size>
 - Key: SettingsWindowTop.0-638332384326425996
   Text: <size=-6>Сохранить игру</size>
 - Key: SettingsWindowTop.1-638332384326425996
